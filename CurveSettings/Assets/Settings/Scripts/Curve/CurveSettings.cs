@@ -19,7 +19,6 @@ namespace Settings.ForCurve
         private static CurveSettings _instance = null;
 
         // ----- Variables
-        // If the file location needs to be changed, please modify the corresponding variable.
         private const string SETTING_PATH = "Settings/CurveSettings";
 
         // ----- Instance Getter
