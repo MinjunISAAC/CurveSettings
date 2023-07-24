@@ -6,6 +6,5 @@ namespace Settings.ForCurve
         FlatCurve            = 1,
         DecreasingSlopeCurve = 2,
         IncreasingSlopeCurve = 3,
-        TestCode = 4,
     }
 }
