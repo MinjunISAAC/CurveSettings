@@ -81,6 +81,7 @@ namespace InGame.ForUI
                         var dot = _pointGroup[i];
                         Destroy(dot.gameObject);
                     }
+                    _pointGroup.Clear();
                 }
                 else _sec += Time.deltaTime / 10f;
 
