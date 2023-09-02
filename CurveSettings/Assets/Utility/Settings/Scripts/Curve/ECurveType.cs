@@ -1,10 +1,10 @@
-namespace Settings.ForCurve
+namespace Utility.FroSettings.ForCurve
 {
     public enum ECurveType
     {
-        Unknown              = 0,
-        FlatCurve            = 1,
-        DecreasingSlopeCurve = 2,
-        IncreasingSlopeCurve = 3,
+        Unknown = 0,
+        Sine    = 1,
+        CoSine  = 2,
+        Custom  = 3,
     }
 }

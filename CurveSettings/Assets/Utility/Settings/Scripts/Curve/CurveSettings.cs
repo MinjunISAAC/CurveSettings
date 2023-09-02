@@ -4,7 +4,7 @@ using System.Collections.Generic;
 // ----- Unity
 using UnityEngine;
 
-namespace Settings.ForCurve
+namespace Utility.FroSettings.ForCurve
 {
     [CreateAssetMenu(fileName = "CurveSettings", menuName = "Settings/Create Curve Settings")]
     public class CurveSettings : ScriptableObject
