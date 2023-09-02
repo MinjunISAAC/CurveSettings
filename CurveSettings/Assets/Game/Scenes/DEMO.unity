@@ -862,6 +862,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 4888519364574746429, guid: c6ff996957bb51f418024f211a12070b, type: 3}
   m_PrefabInstance: {fileID: 4888519364370892082}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &904565264 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3958199549558206077, guid: c6ff996957bb51f418024f211a12070b, type: 3}
+  m_PrefabInstance: {fileID: 4888519364370892082}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88dafeeaceeb7cc4487cc9d424e79350, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &939221646
 GameObject:
   m_ObjectHideFlags: 0
@@ -1508,6 +1519,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1447107752}
   m_CullTransparentMesh: 1
+--- !u!114 &1814967714 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3958199549558206077, guid: c6ff996957bb51f418024f211a12070b, type: 3}
+  m_PrefabInstance: {fileID: 611228560}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88dafeeaceeb7cc4487cc9d424e79350, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1821256618
 GameObject:
   m_ObjectHideFlags: 0
@@ -1581,6 +1603,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1887033986}
+  - component: {fileID: 1887033987}
   m_Layer: 0
   m_Name: TestView
   m_TagString: Untagged
@@ -1604,6 +1627,23 @@ Transform:
   m_Father: {fileID: 1832348768}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1887033987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1887033985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e21d4549632579a40a665138dcf7293a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _targetCurveView_Sine: {fileID: 904565264}
+  _targetCurveView_CoSine: {fileID: 2074246452}
+  _targetCurveView_Custom: {fileID: 1814967714}
+  _BTN_Active: {fileID: 1286524887}
+  _TMP_Contents: {fileID: 486685631}
 --- !u!1 &1989969438
 GameObject:
   m_ObjectHideFlags: 0
@@ -1650,6 +1690,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1137a9b0101d90b429e6fd98d0489abe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _textView: {fileID: 1887033987}
+--- !u!114 &2074246452 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3958199549558206077, guid: c6ff996957bb51f418024f211a12070b, type: 3}
+  m_PrefabInstance: {fileID: 457330436}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88dafeeaceeb7cc4487cc9d424e79350, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &4888519364370892082
